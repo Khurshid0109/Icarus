@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0C3063D4-45BB-4DAB-8C1E-39D3B2E476A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Icarus.Api", "src\Icarus.Api\Icarus.Api.csproj", "{478386F9-F22D-446F-9021-93EC3F776D8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Icarus.Data", "src\Icarus.Data\Icarus.Data.csproj", "{5BFA92E8-A120-434B-B8D2-01D85D1AEDDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Icarus.Domain", "src\Icarus.Domain\Icarus.Domain.csproj", "{C46807AD-F191-4C84-BAD6-1DC4A46C6CD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Icarus.Service", "src\Icarus.Service\Icarus.Service.csproj", "{484B123C-D8B7-43C7-86D8-80A2CA7636F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot.Api", "src\TelegramBot.Api\TelegramBot.Api.csproj", "{2A84EF69-C230-415C-9096-84D22A0D52F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot.AdminPanel", "src\TelegramBot.AdminPanel\TelegramBot.AdminPanel.csproj", "{B861053B-E1E2-4C22-B3F1-46FB044E0A64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{478386F9-F22D-446F-9021-93EC3F776D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478386F9-F22D-446F-9021-93EC3F776D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478386F9-F22D-446F-9021-93EC3F776D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478386F9-F22D-446F-9021-93EC3F776D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFA92E8-A120-434B-B8D2-01D85D1AEDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFA92E8-A120-434B-B8D2-01D85D1AEDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFA92E8-A120-434B-B8D2-01D85D1AEDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFA92E8-A120-434B-B8D2-01D85D1AEDDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C46807AD-F191-4C84-BAD6-1DC4A46C6CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46807AD-F191-4C84-BAD6-1DC4A46C6CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46807AD-F191-4C84-BAD6-1DC4A46C6CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46807AD-F191-4C84-BAD6-1DC4A46C6CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{484B123C-D8B7-43C7-86D8-80A2CA7636F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484B123C-D8B7-43C7-86D8-80A2CA7636F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484B123C-D8B7-43C7-86D8-80A2CA7636F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484B123C-D8B7-43C7-86D8-80A2CA7636F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A84EF69-C230-415C-9096-84D22A0D52F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A84EF69-C230-415C-9096-84D22A0D52F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A84EF69-C230-415C-9096-84D22A0D52F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A84EF69-C230-415C-9096-84D22A0D52F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B861053B-E1E2-4C22-B3F1-46FB044E0A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B861053B-E1E2-4C22-B3F1-46FB044E0A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B861053B-E1E2-4C22-B3F1-46FB044E0A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B861053B-E1E2-4C22-B3F1-46FB044E0A64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{478386F9-F22D-446F-9021-93EC3F776D8E} = {0C3063D4-45BB-4DAB-8C1E-39D3B2E476A6}
+		{5BFA92E8-A120-434B-B8D2-01D85D1AEDDB} = {0C3063D4-45BB-4DAB-8C1E-39D3B2E476A6}
+		{C46807AD-F191-4C84-BAD6-1DC4A46C6CD9} = {0C3063D4-45BB-4DAB-8C1E-39D3B2E476A6}
+		{484B123C-D8B7-43C7-86D8-80A2CA7636F3} = {0C3063D4-45BB-4DAB-8C1E-39D3B2E476A6}
+		{2A84EF69-C230-415C-9096-84D22A0D52F3} = {0C3063D4-45BB-4DAB-8C1E-39D3B2E476A6}
+		{B861053B-E1E2-4C22-B3F1-46FB044E0A64} = {0C3063D4-45BB-4DAB-8C1E-39D3B2E476A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E35F4B59-2262-400D-A707-66EA7375B0EE}
+	EndGlobalSection
+EndGlobal
